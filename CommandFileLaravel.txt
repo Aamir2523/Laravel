@@ -1,0 +1,26 @@
+- Run server
+php artisan serve
+
+- Create controller
+php artisan make:conroller controllername
+
+- Create model
+php artisan make:model modelname
+
+- Run to add db files
+php artisan migrate
+
+- create db file
+php artisan make:migration jobs
+
+- If error to run above file
+php artisan migrate --path=/database/migrations/file name
+
+- If we forgot to add field name in db
+php artisan make:migration change_datatypeorfieldname_to_jobs --table=tabelname
+
+- Run below command for show images in site
+php artisan storage:link
+
+- Create request file for validation
+php artisan make:request filename
